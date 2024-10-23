@@ -1,21 +1,42 @@
 /*
 We use a sepreate CSS file with the rel "relationship" url in our HTML 
 so we do not have to use that many in-line CSS (That is CSS Stored in HTML files).
- 
 */
-h1
-{
-    text-align: center;
-    color: brown;
-    border: darkolivegreen;
-}
 
+/*
+a property paired with a value is called a decleration
+a set of declerations is a decleration block
+decleration blocks paired with selectors are called CSS Rule Sets
+*/
 nav
 {
-text-emphasis-color: yellow;
+    
 }
 
 body
 {
-    background-color: beige;
+    color:#7f886e;
+    background-color: #c5ae96;
+}
+
+
+h1
+{
+    text-align: center;
+    color: #344b33;
+    border: #948363;
+}
+
+footer
+{
+    text-align: center;
+}
+
+.grid-container
+{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    grid-template-rows: [r1];
+    grid-template-columns: [c1];
 }
