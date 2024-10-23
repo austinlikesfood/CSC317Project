@@ -1,0 +1,21 @@
+/*
+We use a sepreate CSS file with the rel "relationship" url in our HTML 
+so we do not have to use that many in-line CSS (That is CSS Stored in HTML files).
+ 
+*/
+h1
+{
+    text-align: center;
+    color: brown;
+    border: darkolivegreen;
+}
+
+nav
+{
+text-emphasis-color: yellow;
+}
+
+body
+{
+    background-color: beige;
+}
