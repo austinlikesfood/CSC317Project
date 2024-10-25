@@ -19,6 +19,13 @@ body
     background-color: #c5ae96;
 }
 
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
 
 h1
 {
@@ -37,6 +44,17 @@ footer
     display: grid;
     width: 400px;
     height: 400px;
-    grid-template-rows: [r1];
-    grid-template-columns: [c1];
+    justify-content: space-evenly;
+    grid-template-rows: repeat(3,1 fr);
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid-item
+{
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 250px;
 }
