@@ -1,7 +1,6 @@
-const form = (document.getElementById('reg-form'))
-console.log(form)
+const usernameElement = document.getElementById('username');
+usernameElement.style.color = "red";
 
-form.addEventListener('submit', e => {
-    e.preventDefault();
-    checkInputs();
-});
+reg-form.addEventListener("submit", function(){})
+
+console.log(usernameElement);
