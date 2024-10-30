@@ -1,6 +1,8 @@
-const usernameElement = document.getElementById('username');
-usernameElement.style.color = "red";
-
-reg-form.addEventListener("submit", function(){})
-
-console.log(usernameElement);
+// the name of the form element is in the input tag
+// be careful with naming conventions and the actual naming convention
+document.getElementById('Username').addEventListener('change', function(ev){
+    console.log(ev);
+})
+document.getElementById('password').addEventListener('change', function(ev){
+    console.log(ev);
+})
