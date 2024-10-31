@@ -6,3 +6,7 @@ document.getElementById('Username').addEventListener('change', function(ev){
 document.getElementById('password').addEventListener('change', function(ev){
     console.log(ev);
 })
+
+document.getElementById('checkPass').addEventListener('change', function(){
+    console.log(ev);
+})
