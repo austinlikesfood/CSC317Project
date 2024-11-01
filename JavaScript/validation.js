@@ -14,3 +14,7 @@ document.getElementById('checkPass').addEventListener('change', function(){
 document.getElementById('email').addEventListener('change', function(){
     console.log(ev);
 })
+
+document.getElementById('tos-box').addEventListener('change', function(){
+    console.log(ev);
+})
