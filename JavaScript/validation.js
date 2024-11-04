@@ -20,4 +20,4 @@ document.getElementById('tos-box').addEventListener('change', function(){
     console.log(ev);
 })
 
-document.getElementsByTagName('nav-bar')
+document.getElementsByTagName
