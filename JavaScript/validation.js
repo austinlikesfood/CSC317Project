@@ -21,3 +21,10 @@ document.getElementById('tos-box').addEventListener('change', function(){
 })
 
 document.getElementsByTagName
+
+function validatePassword('password')
+{
+    var minLetters = 6;
+    var minNumbers = 4;
+    var minSpecialCharacters = 1;
+}
