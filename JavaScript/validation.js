@@ -20,11 +20,21 @@ document.getElementById('tos-box').addEventListener('change', function(){
     console.log(ev);
 })
 
-document.getElementsByTagName
 
-function validatePassword('password')
-{
-    var minLetters = 6;
-    var minNumbers = 4;
-    var minSpecialCharacters = 1;
+// function validatePassword('password'){
+//     var minLetters = 6;
+//     var minNumbers = 4;
+//     var minSpecialCharacters = 1
+// }
+    
+function usernameCheck(){
+
+}
+
+var obj = {
+    name: 'Austin',
+    id: 1017,
+    x: function(){
+        console.log(this);
+    }
 }
