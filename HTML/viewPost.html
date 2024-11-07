@@ -6,24 +6,35 @@
     <style>
     .flex-container{
         display: flex;
-        background-color: Blue;
+        background-color: paleturquoise;
     }
     .flex-container > div {
-        background-color: aqua;
+        background-color: plum;
         margin: 10px;
         padding: 20px;
         font-size: 30px;
     }
     .nav-bar {
-        display: flexbox;
+        display: flex;
         align-items: center;
         justify-content: center;
         height: 100%;
         width: 80%;
         margin: auto;      
     }
+    .nav-bar ul {
+        display: flex;
+        list-style-type: none;
+
+    }
     .nav-container .nav-bar {
         justify-content: space-between;
+        padding: 10px;
+        margin: 0 10px;
+    }
+    .nav-container{
+        background-color: var(--nav-color);
+        height: 70px;
     }
     </style>
 </head>
