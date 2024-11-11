@@ -1,5 +1,8 @@
 // the name of the form element is in the input tag
 // be careful with naming conventions and the actual naming convention
+
+const { log } = require("handlebars");
+
 // "ev" is predifned in javaScript
 document.getElementById('Username').addEventListener('change', function(ev){
     console.log(ev);
@@ -38,3 +41,11 @@ var obj = {
         console.log(this);
     }
 }
+var obj1 = {
+    name: 'Bernard',
+    id: 1904,
+    x: function(){
+        console.log(this)
+    }
+}
+
