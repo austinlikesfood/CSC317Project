@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+
+<head>
+    <link rel ="stylesheet" href ="../CSS/template.css">
+    <title>View Post</title>
+    <style>
+    .flex-container{
+        display: flex;
+        background-color: paleturquoise;
+    }
+    .flex-container > div {
+        background-color: plum;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 80%;
+        margin: auto;      
+    }
+    .nav-bar ul {
+        display: flexbox;
+        list-style-type: none;
+
+    }
+    .nav-container .nav-bar {
+        justify-content: space-between;
+        padding: 10px;
+        margin: 0 10px;
+    }
+    .nav-container{
+        background-color: var(--nav-color);
+        height: 75px;
+    }
+    </style>
+</head>
+
+<body>
+
+    <h1>View Post</h1>
+
+    <div class = "nav-container">
+    <div class = "nav-bar">
+        <h2>Nav Bar</h2>
+        <nav>
+            <!-- ul tag is unordered list, li is list item-->
+            <ul class = "nav-bar">
+                <li><a href ="/Users/a/Desktop/SCHOOL/DevProjects/TheCherriedTomato/HTML/login.html">Login</a></li>
+                    <li><a href ="/Users/a/Desktop/SCHOOL/DevProjects/TheCherriedTomato/HTML/postPicture.html">Create Post</a></li>
+                        <li><a href ="/Users/a/Desktop/SCHOOL/DevProjects/TheCherriedTomato/HTML/profile.html">My Profile</a></li>
+                            <li><a href ="/Users/a/Desktop/SCHOOL/DevProjects/TheCherriedTomato/HTML/registration.html">Register</a></li>
+                                <li><a href ="/Users/a/Desktop/SCHOOL/DevProjects/TheCherriedTomato/HTML/viewPost.html">View Post</a> </li>
+                                    <li><a href ="/Users/a/Desktop/SCHOOL/DevProjects/TheCherriedTomato/HTML/index.html">Home/index</a></li>
+            </ul>
+            </nav>
+    </div>
+    </div>
+
+    <div class= "flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+
+</body>

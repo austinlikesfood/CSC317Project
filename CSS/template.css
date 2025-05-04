@@ -1,7 +1,6 @@
 /*
 We use a sepreate CSS file with the rel "relationship" url in our HTML 
 so we do not have to use that many in-line CSS (That is CSS Stored in HTML files).
- 
 */
 h1
 {
@@ -12,10 +11,23 @@ h1
 
 nav
 {
-text-emphasis-color: yellow;
+    box
+    margin: 0;
+    padding: 0  ;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
 }
 
 body
 {
     background-color: beige;
 }
+
+form
+{
+    text-align: center;
+}
+
