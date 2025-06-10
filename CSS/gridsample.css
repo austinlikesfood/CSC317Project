@@ -1,3 +1,10 @@
+/*
+use REM datatype so the pixels will sclae with different devices
+keep in mind 4px is an absolute unit in CSS but not on all devices
+
+you can also use the dataytpoe 10ch which translates to 10 0's basiucally a space maker
+*/
+
 *,
 *::after,
 *::before {
@@ -7,48 +14,60 @@
 
 html {
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
-    height: 100%;
-    width: 100%;
+    height: scree;
+    width: 100vw;
     margin: 0;
     padding: 0;
 }
 
 
 body * {
-    text-align: center;
+    background-color: #F2F0EF;
+    color: ;
 }
 
 header {
+    grid-area: header;
+    text-align: left;
     padding: 1rem;
 }
 
 header h1 {
-    margin: 0 0 10px 0;
-    color: whitesmoke;
+    margin: 0 0 8px 0;
+    color: red;
+    text-align: left;
 }
 
 nav ul {
     /* nav bar */
-    list-style: none;
-    margin: 0;
+    background-color: navy;
+    height: 200px;
+    font-size: 1.2rem;
     padding: 0;
     display: grid;
-    gap: .5em;
-    grid-auto-flow: row;
+    grid-auto-flow: column;
+    border-radius: .35rem;
+    padding: 12px 16px;
+    place-items: center;
 }
 
 li:nth-child(2n + 2) {}
 
-
 nav li {
+    color: thistle;
+    text-transform: uppercase;
     font-size: 1.2rem;
-    background-color: burlywood;
-    border-radius: .35rem;
+    background-color: 3CBC8D;
+    border-radius: .800rem;
     padding: 12px 16px;
+}
+
+ul:hover{
+    background-color: yellow;
 }
 
 nav a {
@@ -71,11 +90,6 @@ nav a {
     "footer";
 }
 
-.page-header {
-    background-color: #667292;
-    grid-area: header;
-}
-
 .left-sidebar {
     background-color: #8d9db6;
     padding: 32px 16px;
@@ -83,23 +97,28 @@ nav a {
 }
 
 .main-content {
-    background-color: #f1e3dd;
+    background-color: #e44e0d;
     min-height: 75vh;
     grid-area: mcontent;
 }
 
 .right-sidebar {
-    background-color: #8d9db6;
+    background-color: #f3eeee;
     padding: 32px 16px;
     grid-area: rsidebar;
 }
 
-.page-footer {
-    background-color: #667292;
+.footer {
+    background-color: #ffffff;
     padding: .5em;
-    color: whitesmoke;
+    color: rgb(252, 248, 248);
     font-size: 2rem;
     grid-area: footer;
+    height: 5em;
+}
+
+.input-group{
+    padding-bottom: 4px;
 }
 
 @media screen and (min-width: 550px) {

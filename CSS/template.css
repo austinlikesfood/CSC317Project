@@ -4,26 +4,35 @@ so we do not have to use that many in-line CSS (That is CSS Stored in HTML files
 */
 h1
 {
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: brown;
+    color: black;
     border: darkolivegreen;
 }
 
-nav
+.input-group
 {
-    box
-    margin: 0;
-    padding: 0  ;
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-    width: 50%;
-    height: 50%;
+    vertical-align: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
-body
+.input-text
 {
-    background-color: beige;
+    padding:  4px 8px ;
+    border: 1px solid #cacaca;
+    border-radius: 16px;
+    box-shadow: -2px 2px 1px;
+}
+
+.form-button
+{
+    background-color:rgb(3,159,244);
+    border: none;
+    padding: 4px 8px;
+    border-radius: 1rem;
 }
 
 form
@@ -31,3 +40,10 @@ form
     text-align: center;
 }
 
+.valid-text {
+    outline: green;
+}
+
+.invalid-text {
+    outline: red;
+}

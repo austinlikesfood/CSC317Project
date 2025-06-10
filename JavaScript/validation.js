@@ -5,6 +5,14 @@
 
 // "ev" is predifned in javaScript
 document.getElementById('Username').addEventListener('change', function(ev){
+    let userInput = ev.currentTarget.value;
+    let Username = userInput.value;
+    if(Username.length >= 3){
+        userInput.setAttribute("class", "valid-text");
+    }
+    else{
+        userInput.setAttribute("class", "invalid-text");
+    }
     console.log(ev);
 })
 
@@ -24,12 +32,15 @@ document.getElementById('tos-box').addEventListener('change', function(){
 })
 
 
+
+function validatePassword{}(
 // function validatePassword('password'){
 //     var minLetters = 6;
 //     var minNumbers = 4;
 //     var minSpecialCharacters = 1
 // }
-    
+
+//document.
 function usernameCheck(){
 
 }
